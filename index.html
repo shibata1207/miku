@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なWebサイト</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #440000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            color: #cc0000;
+        }
+
+        footer {
+            background-color: #440000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>わたしのお菓子作り</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>最近作ったお菓子</h2>
+            <p>カップケーキ</p>
+        </section>
+
+        <section>
+            <h2>次作りたいお菓子</h2>
+            <p>チョコブラウニー</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 すべての権利を保有</p>
+    </footer>
+</body>
+</html>
